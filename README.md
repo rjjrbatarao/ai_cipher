@@ -1,9 +1,6 @@
 # AI Cipher
 AI Cipher is a proof of concept cipher I've developed to incorporate artificial intelligence on encryption as well as compression on a sigle shot. The algorithm is very basic on the encryption phase where valid words are encrypted using a simple character subsititution 0 - 9 or any unique character to match. The AI comes into play on decoding the words where 2d array of characters are generated and the encrypted word will be one of the combinations of the array ie. 
 
-## Todo
- * still solving the code for combination algorithm with dynamic arrays.
-
 ```
 numberic_table = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'}
 word: my
@@ -37,3 +34,5 @@ Then the on the resulting array AI will construct a valid sentence.
 * many possibilities can be made which only future can tell.
 * ai trainable decryption can be made.
 ```
+## Todo
+ * still solving the code for combination algorithm with dynamic arrays.
